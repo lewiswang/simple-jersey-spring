@@ -1,4 +1,4 @@
-package com.cisco.webex.rest;
+package com.ciswbx.rest;
 
 import org.glassfish.jersey.jackson.JacksonFeature;
 import org.glassfish.jersey.message.GZipEncoder;
@@ -8,10 +8,7 @@ import org.glassfish.jersey.server.filter.EncodingFilter;
 
 /**
  * Registers the components to be used by the JAX-RS application
- * 
- * @author ama
- * 
- */
+ **/
 public class RestJaxRsApplication extends ResourceConfig {
 
 	/**
@@ -19,7 +16,7 @@ public class RestJaxRsApplication extends ResourceConfig {
 	 */
 	public RestJaxRsApplication() {
 		
-        packages("com.cisco.webex.rest");
+        packages("com.ciswbx.rest");
         
 //		// register application resources
 //		register(PodcastsResource.class);

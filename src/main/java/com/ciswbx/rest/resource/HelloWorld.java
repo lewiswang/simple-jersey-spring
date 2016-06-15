@@ -1,4 +1,4 @@
-package com.cisco.webex.rest.resource;
+package com.ciswbx.rest.resource;
 
 /**
  * Intellij Idea
